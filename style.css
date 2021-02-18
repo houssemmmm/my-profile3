@@ -1,0 +1,99 @@
+body {
+	background-color:#ffffcc;
+	color: rgb(30.30.30);
+	text-align: center;
+	background-image: url("images/body.png");
+}
+
+h1 {
+	font-family: "Oswald", sans-serif;
+	font-size : 30px;
+	line-height: 50px;
+	letter-spacing: 3px;
+	text-align: center;
+	color: #336699;
+
+}
+
+h2, h3 {
+	font-family: "Oswald", sans-serif;
+	line-height: 30px; 
+	letter-spacing: 2px;
+	text-align: center;
+	color: #white;
+	text-shadow: 0px 1px 2px black;
+
+}
+
+p {
+	font-family: "Oswald", sans-serif; 
+	line-height: 15px;
+	letter-spacing: 1.5px;
+	text-align: center;
+
+ }
+
+div {
+	background-color:white;
+	padding: 50px;
+	margin: 60px auto;
+	box-shadow: rgba(0,0,0,0.3) 0px 10px 30px;
+	border-radius: 10px;
+	background-position: center;
+	width: 550px;
+}
+
+li {
+	list-style: none;
+}
+
+i {
+	font-size: 45px;
+	color: green;
+	text-align: justify;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.header {
+	background-color: white;
+	padding: 45px;
+	margin-bottom: 20px;
+
+}
+
+#music {
+	background-image: url("images/dj.jpeg");
+	font-size: 40px;
+	color: white;
+}
+
+#football {
+	background-image: url("images/parc-ol.jpeg");
+	font-size: 30px;
+	color: white;
+	text-anchor: 10px;
+}
+
+#urbex {
+	background-image: url("images/jv.jpeg");
+	color: white;
+	font-size: 30px;
+}
+
+#networks {
+	background-image: url("images/network.jpeg");
+	color: black;
+	font-size: 30px;
+}
+
+.avatar {
+	object-fit: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+}
